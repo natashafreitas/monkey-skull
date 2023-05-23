@@ -7,7 +7,14 @@
 
 :root{
     --cor1: rgb(17, 17, 17);
-    --cor2: red;
+    --cor2: white;
+    --cor3: rgba(218, 235, 252, 0.925);
+    --cor4: black;
+}
+
+header{
+    background: linear-gradient(to bottom, var(--cor4), var(--cor1));
+    padding: 10px;
 }
 
 .container{
@@ -25,35 +32,97 @@
 .menu{
     width: 50%;
     align-content: left;
-
 }
 
 .menu a{
     text-decoration: none;
-    color: white;
+    color: var(--cor3);
     padding: 8%;
-
 }
 
 .menu a:hover{
     color: var(--cor2);
 }
 
-.sociais button {
-    width: 40px;
-    height: 40px;
-}
-
-.sociais button i{
-    font-size: 25px;
-}
-
-header{
-    background-color: var(--cor1);
-    padding: 10px;
-}
-
 nav {
     padding: 20px;
 }
 
+.sociais{
+    font-size: 25px;
+}
+
+.sociais a{
+    color: var(--cor3);
+}
+
+.sociais a:hover{
+    color: var(--cor2);
+    font-size: 30px;
+}
+
+main{
+    padding: 55px;
+}
+
+footer{
+    background: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    padding: 10px;
+}
+
+.container-footer{
+    display: flex;
+}
+
+.sociais-footer{
+    font-size: 17px;
+}
+
+.sociais-footer a{
+    color: var(--cor3);
+    padding: 25px 15px;
+}
+
+.sociais-footer a:hover{
+    color: var(--cor2);
+}
+
+.sociais-footer li{
+    color: var(--cor3);
+    list-style: none;
+}
+
+.sociais-footer ul{
+    width: 45px;
+}
+
+.nomes-redes-footer{
+    color: var(--cor2);
+    list-style: none;
+}
+
+.nomes-redes-footer li{
+    padding: 2.3px;
+    font-size: 12px;
+    list-style: none;
+}
+
+.nomes-redes-footer a{
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+.nomes-redes-footer a:hover{
+    color: var(--cor2);
+    text-decoration: underline;
+}
+
+.horario-footer{
+    color: var(--cor2);
+    text-align: center;
+}
+
+div.container-footer > p{
+    color: var(--cor2);
+    font-size: 13px;
+}
