@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Niramit:wght@300&display=swap');
 
 *{
     padding: 0%;
@@ -6,10 +7,13 @@
 }
 
 :root{
-    --cor1: rgb(17, 17, 17);
+    --cor1: rgb(36, 35, 35);
     --cor2: white;
     --cor3: rgba(218, 235, 252, 0.925);
     --cor4: black;
+    --cor5: rgba(255, 255, 255, 0.356);
+    --cor6: rgb(12, 12, 12);
+    --fonte1: 'Niramit', sans-serif;
 }
 
 header{
@@ -37,15 +41,19 @@ header{
 .menu a{
     text-decoration: none;
     color: var(--cor3);
-    padding: 8%;
+    padding: 15px;
 }
 
 .menu a:hover{
     color: var(--cor2);
+    background-color: var(--cor5);
+    border-radius: 10px;
+    transition: 0.2s;
 }
 
-nav {
+nav{
     padding: 20px;
+    font-family: var(--fonte1);
 }
 
 .sociais{
@@ -65,64 +73,83 @@ main{
     padding: 55px;
 }
 
+img.logo2{
+    padding-top: 20px;
+    width: 99vw;
+}
+
 footer{
     background: linear-gradient(to bottom, var(--cor1), var(--cor4));
-    padding: 10px;
+    padding: 8px 0px 0px 0px;
 }
 
-.container-footer{
-    display: flex;
-}
-
-.sociais-footer{
-    font-size: 17px;
-}
-
-.sociais-footer a{
-    color: var(--cor3);
-    padding: 25px 15px;
-}
-
-.sociais-footer a:hover{
-    color: var(--cor2);
-}
-
-.sociais-footer li{
-    color: var(--cor3);
-    list-style: none;
-}
-
-.sociais-footer ul{
-    width: 45px;
-}
-
-.nomes-redes-footer{
-    color: var(--cor2);
-    list-style: none;
-}
-
-.nomes-redes-footer li{
-    padding: 2.3px;
-    font-size: 12px;
-    list-style: none;
-}
-
-.nomes-redes-footer a{
+footer a{
     text-decoration: none;
     color: var(--cor3);
 }
 
-.nomes-redes-footer a:hover{
+footer a:hover{
     color: var(--cor2);
+}
+
+footer p a{
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+footer p a:hover{
+    color: var(--cor2);
+}
+
+footer p.assinatura{
+    text-align: right;
+    color: var(--cor3);
+    font-size: x-small;
+}
+
+footer h4{
+    font-size: larger;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 0px 8px 0px;
+    align-items: center;
+}
+
+.sociais-footer a{
+    font: var(--fonte1);
     text-decoration: underline;
 }
 
-.horario-footer{
-    color: var(--cor2);
-    text-align: center;
+.sociais-footer ul{
+    display: flex;
 }
 
-div.container-footer > p{
-    color: var(--cor2);
-    font-size: 13px;
+.img1{
+    padding: 15px;
+}
+
+.img2{
+    padding: 15px;
+}
+
+.img3{
+    padding: 15px;
+}
+
+.sociais-footer li img{
+    background-color: var(--cor2);
+    border-radius: 25px;
+    width: 26px;
+}
+
+div.container-footer li{
+    list-style: none;
+}
+
+.assinatura{
+    font-size: 0.8px;
+    font-family: var(--fonte1);
 }
