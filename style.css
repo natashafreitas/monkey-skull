@@ -16,6 +16,10 @@
     --fonte1: 'Niramit', sans-serif;
 }
 
+body{
+    background-color:var(--cor6);
+}
+
 header{
     background: linear-gradient(to bottom, var(--cor4), var(--cor1));
     padding: 10px;
