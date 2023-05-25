@@ -8,14 +8,13 @@ https://www.youtube.com/@monkeyskullmofficial
 
 referencia obrigatoria:
 <a target="_blank" href="https://icons8.com.br/icons/collections/xYPbybUCLQtL">Icons</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
-
+<a href="https://www.freepik.com/free-vector/social-media-icons-vector-set-with-facebook-instagram-twitter-tiktok-youtube-logos_17221200.htm#query=telegram&position=3&from_view=search&track=sph">Image by rawpixel.com</a> on Freepik
 TEXTOS
 
 rodapé:
 @monkeyskull_ms
 https://t.me/monkeyskullMS
 https://www.youtube.com/@monkeyskullmofficial
-
 Horário de atendimento: Segunda à sábado / 11h até 21h
 Developed by: Natasha Freitas
 
@@ -23,3 +22,15 @@ CONTATO
 
 Para dúvidas, orçamentos e contato, por favor, mande uma mensagem.
 
+
+                <!-- Horário de atendimento do footer -->
+            <div class="horario-footer">
+                <h4>Horário de atendimento:</h4>
+                <p>Segunda à sábado</p>
+                <p>11h até 21h</p>
+            </div>
+div.horario-footer{
+    font: 10px var(--fonte1);
+    text-align: center;
+    color: var(--cor3);
+}
