@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Niramit:wght@300&display=swap');
+@font-face {
+    font-family: monkeyskull;
+    src: url('fonte/aAssassinNinja.otf') format(opentype);
+}
 
 *{
     padding: 0%;
@@ -9,15 +13,108 @@
 :root{
     --cor1: rgb(36, 35, 35);
     --cor2: white;
-    --cor3: rgba(218, 235, 252, 0.925);
+    --cor3: rgba(225, 238, 250, 0.925);
     --cor4: black;
     --cor5: rgba(255, 255, 255, 0.356);
     --cor6: rgb(12, 12, 12);
+    --cor7:rgba(255, 255, 255, 0.075);
+    --cor8: rgba(0, 0, 0, 0.986);
+    --cor9: rgb(16, 16, 31);
     --fonte1: 'Niramit', sans-serif;
+    --fonte2: monkeyskull, sans-serif;
 }
 
 body{
-    background-color:var(--cor6);
+    background-color: var(--cor8);
+}
+
+section{
+    font-family: var(--fonte1);
+}
+
+.mandela{
+    margin: auto;
+    max-width: 600px;
+}
+
+div.mandela p{
+    text-align: justify;
+}
+
+.mgt{   
+    margin: auto;
+    max-width: 600px;
+}
+
+.mgt h1{
+    padding-top: 40px;
+}
+
+div.mgt p{    
+    text-align: justify;
+}
+
+.pretending{   
+    margin: auto;
+    max-width: 600px;
+}
+
+div.pretending p{
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    color: var(--cor2);
+    text-transform: uppercase;
+    padding: 25px;
+    font-family: var(--fonte1);
+}
+
+h2{
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 4em;
+    padding: 50px;
+}
+
+h2 a{
+    text-decoration: none;
+    color: var(--cor3);
+    padding: 15px;
+}
+
+h2 a:hover{
+    font-size: 60px;
+    color: var(--cor2);
+    background-color: var(--cor9);
+    border-radius: 5px;
+}
+
+p{
+    text-align: center;
+    text-indent: 25px;
+    line-height: 1.4em;
+    color: var(--cor2);
+    font-family: var(--fonte1);
+}
+
+p.cont{
+    padding-bottom: 95px;
+}
+
+.pagcontato{
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+.pagcontato:hover{
+    color: var(--cor2);
+    text-decoration: underline;
+}
+
+.contatos2 > p{
+    line-height: 2.5em;
 }
 
 header{
@@ -73,13 +170,79 @@ nav{
     font-size: 30px;
 }
 
-main{
-    padding: 55px;
+main video{
+    border: 1px solid var(--cor7);
+    margin: auto;
+    min-width: 300px;
+}
+
+.elementos1{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.elementos1 > video{
+    width: 800px;
+}
+
+.elementos2{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.elementos2 > video{
+    width: 800px;
+}
+
+.elementos3{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.elementos3 > video{
+    width: 700px;
 }
 
 img.logo2{
     padding-top: 20px;
     width: 99vw;
+}
+
+.img-contato{
+    text-align: center;
+}
+
+.img-contato img{
+    width: 1000px;
+    margin: auto;
+}
+
+section a{
+    padding: 5px;
+    text-decoration: none;
+    color: var(--cor3);
+    font-size: 25px;
+    border: 1px solid var(--cor2);
+    border-radius: 5px;
+    background-color: var(--cor7);
+}
+
+section a:hover{
+    color: var(--cor2);
+}
+
+aside{
+    text-align: center;
+    font-family: var(--fonte1);
+    color: var(--cor2);
+    padding-bottom: 20px;
+}
+
+aside img{
+    width: 420px;
 }
 
 footer{
