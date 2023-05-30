@@ -249,12 +249,21 @@ p.cont{
     padding-bottom: 95px;
 }
 
-.img-contato{
+img.img-contato{
     margin: 0px;
     padding: 0px;
-    width: 90vw;
+    width: 95vw;
     display: flex;
     justify-content: center;
+}
+
+.img-contato{
+    text-align: center;
+}
+
+.img-contato img{
+    width: 50vw;
+    margin: auto;
 }
 
 .pagcontato{
@@ -307,14 +316,6 @@ main video{
     width: 700px;
 }
 
-.img-contato{
-    text-align: center;
-}
-
-.img-contato img{
-    width: 1000px;
-    margin: auto;
-}
 
 aside{
     text-align: center;
