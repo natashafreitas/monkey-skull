@@ -223,6 +223,28 @@ div.mandela p{
     text-align: justify;
 }
 
+div.container{
+    justify-content: space-around;
+}
+
+span.material-symbols-outlined > a{
+    color: var(--cor3);
+    text-decoration: none;
+    display: block;
+    font-size: 40px;
+}
+
+span.material-symbols-outlined > a:hover{
+    color: var(--cor2);
+}
+
+img#timeline-mandela{
+    width: 99vw;
+    display: block;
+    margin: auto;
+    padding-bottom: 105px;
+}
+
 .mgt{   
     margin: auto;
     max-width: 600px;
