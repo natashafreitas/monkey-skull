@@ -103,6 +103,7 @@ nav{
     background-color: var(--cor5);
     border-radius: 10px;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .sociais{
@@ -134,11 +135,83 @@ section a:hover{
 
 img.logo2{
     padding-top: 20px;
-    width: 99vw;
+    width: 96vw;
 }
 
 .vid-index{
     text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .video1{ 
+        width: 400px;
+        height: 200px; 
+}
+    .video2{ 
+        width: 400px;
+        height: 200px; 
+}
+    .video3{ 
+        width: 400px;
+        height: 200px; 
+}
+    .video4{ 
+        width: 400px;
+        height: 200px; 
+}
+    .video5{ 
+        width: 400px;
+        height: 200px; 
+}
+
+    section img.logo2{
+        width: 95vw;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .menu{
+        display: grid;
+    }
+    
+    .menu a:hover{
+        width: 50%;
+    }
+
+    .video1{
+        width: 650px;
+        height: 400px;
+    }
+
+    .video2{
+        width: 650px;
+        height: 400px;
+    }
+
+    .video3{
+        width: 650px;
+        height: 400px;
+    }
+
+    .video4{
+        width: 650px;
+        height: 400px;
+    }
+
+    .video5{
+        width: 650px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1070px){
+    .menu{
+        display: grid;
+    }
+
+    .menu a:hover{
+        width: 50%;
+    }
 }
 
 .mandela{
@@ -174,6 +247,14 @@ div.pretending p{
 
 p.cont{
     padding-bottom: 95px;
+}
+
+.img-contato{
+    margin: 0px;
+    padding: 0px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
 }
 
 .pagcontato{
