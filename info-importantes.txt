@@ -22,15 +22,9 @@ CONTATO
 
 Para dúvidas, orçamentos e contato, por favor, mande uma mensagem.
 
-
-                <!-- Horário de atendimento do footer -->
-            <div class="horario-footer">
-                <h4>Horário de atendimento:</h4>
-                <p>Segunda à sábado</p>
-                <p>11h até 21h</p>
-            </div>
-div.horario-footer{
-    font: 10px var(--fonte1);
-    text-align: center;
-    color: var(--cor3);
+.container-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 0px 8px 0px;
+    align-items: center;
 }
