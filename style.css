@@ -212,6 +212,14 @@ img.logo2{
     .menu a:hover{
         width: 50%;
     }
+
+    p{
+        padding: 0px 15px;
+    }
+
+    footer a{
+        width: 300px;
+    }
 }
 
 .mandela{
