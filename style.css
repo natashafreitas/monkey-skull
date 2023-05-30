@@ -26,10 +26,119 @@
 
 body{
     background-color: var(--cor8);
+    font-family: var(--fonte1);
 }
 
-section{
+h1{
+    text-align: center;
+    color: var(--cor2);
+    text-transform: uppercase;
+    padding: 25px;
     font-family: var(--fonte1);
+}
+
+h2{
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 4em;
+    padding: 50px;
+}
+
+h2 a{
+    text-decoration: none;
+    color: var(--cor3);
+    padding: 15px;
+}
+
+h2 a:hover{
+    font-size: 30px;
+    color: var(--cor2);
+    background-color: var(--cor9);
+    border-radius: 5px;
+}
+
+p{
+    text-align: center;
+    text-indent: 25px;
+    line-height: 1.4em;
+    color: var(--cor2);
+    font-family: var(--fonte1);
+}
+
+header{
+    background: linear-gradient(to bottom, var(--cor4), var(--cor1));
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+nav{
+    padding: 20px;
+    font-family: var(--fonte1);
+}
+
+.menu{
+    width: 50%;
+    align-content: left;
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--cor3);
+    padding: 15px;
+}
+
+.menu a:hover{
+    color: var(--cor2);
+    background-color: var(--cor5);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.sociais{
+    font-size: 25px;
+}
+
+.sociais a{
+    color: var(--cor3);
+}
+
+.sociais a:hover{
+    color: var(--cor2);
+    font-size: 30px;
+}
+
+section a{
+    padding: 5px;
+    text-decoration: none;
+    color: var(--cor3);
+    font-size: 22px;
+    border: 2px solid var(--cor4);
+    border-radius: 5px;
+    background-color: var(--cor7);
+}
+
+section a:hover{
+    color: var(--cor2);
+}
+
+img.logo2{
+    padding-top: 20px;
+    width: 99vw;
+}
+
+.vid-index{
+    text-align: center;
 }
 
 .mandela{
@@ -63,42 +172,6 @@ div.pretending p{
     text-align: justify;
 }
 
-h1{
-    text-align: center;
-    color: var(--cor2);
-    text-transform: uppercase;
-    padding: 25px;
-    font-family: var(--fonte1);
-}
-
-h2{
-    text-align: center;
-    font-family: var(--fonte2);
-    font-size: 4em;
-    padding: 50px;
-}
-
-h2 a{
-    text-decoration: none;
-    color: var(--cor3);
-    padding: 15px;
-}
-
-h2 a:hover{
-    font-size: 60px;
-    color: var(--cor2);
-    background-color: var(--cor9);
-    border-radius: 5px;
-}
-
-p{
-    text-align: center;
-    text-indent: 25px;
-    line-height: 1.4em;
-    color: var(--cor2);
-    font-family: var(--fonte1);
-}
-
 p.cont{
     padding-bottom: 95px;
 }
@@ -115,59 +188,6 @@ p.cont{
 
 .contatos2 > p{
     line-height: 2.5em;
-}
-
-header{
-    background: linear-gradient(to bottom, var(--cor4), var(--cor1));
-    padding: 10px;
-}
-
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-.logo{
-    display: flex;
-    justify-content: center;
-}
-
-.menu{
-    width: 50%;
-    align-content: left;
-}
-
-.menu a{
-    text-decoration: none;
-    color: var(--cor3);
-    padding: 15px;
-}
-
-.menu a:hover{
-    color: var(--cor2);
-    background-color: var(--cor5);
-    border-radius: 10px;
-    transition: 0.2s;
-}
-
-nav{
-    padding: 20px;
-    font-family: var(--fonte1);
-}
-
-.sociais{
-    font-size: 25px;
-}
-
-.sociais a{
-    color: var(--cor3);
-}
-
-.sociais a:hover{
-    color: var(--cor2);
-    font-size: 30px;
 }
 
 main video{
@@ -206,11 +226,6 @@ main video{
     width: 700px;
 }
 
-img.logo2{
-    padding-top: 20px;
-    width: 99vw;
-}
-
 .img-contato{
     text-align: center;
 }
@@ -218,20 +233,6 @@ img.logo2{
 .img-contato img{
     width: 1000px;
     margin: auto;
-}
-
-section a{
-    padding: 5px;
-    text-decoration: none;
-    color: var(--cor3);
-    font-size: 25px;
-    border: 1px solid var(--cor2);
-    border-radius: 5px;
-    background-color: var(--cor7);
-}
-
-section a:hover{
-    color: var(--cor2);
 }
 
 aside{
